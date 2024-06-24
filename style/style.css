@@ -1,0 +1,119 @@
+body {
+  min-height: 100vh;
+  font-family: 'Work Sans', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar {
+  display: flex;
+  width: 1200px;
+  margin: 32px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar span {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.navbar input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.navbar-menu-list {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+}
+
+.hero-blog {
+  position: relative;
+}
+
+.hero-blog img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hero-blog-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 10px;
+  width: 500px;
+  padding: 20px;
+  left: 30px;
+  bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hero-blog-category {
+  width: fit-content;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #4b6bfe;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.hero-blog-title {
+  width: fit-content;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-blog-meta {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  gap: 10px;
+  color: #97989f;
+}
+
+.hero-blog-meta img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
